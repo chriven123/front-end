@@ -1,0 +1,22 @@
+{
+  "name": "ecoAIvue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@vuepic/vue-datepicker": "^3.6.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.9.15"
+  }
+}
