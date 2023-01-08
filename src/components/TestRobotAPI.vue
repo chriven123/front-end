@@ -166,6 +166,7 @@ function testAPI() {
     <div v-if="API_chosen === 'Richiedi riconoscimento rifiuto'">
         <label for="image">URL immagine:</label><br>
         <label for="image">A causa del proxy di pythonanywhere si possono inserire solo URL appartenenti a questi siti: https://www.pythonanywhere.com/whitelist/</label><br>
+        <label for="image">Attendere circa un minuto per la risposta</label><br>
         <input id="image_url" name="image_url" v-model="image_url"><br>
     </div>
     <div v-if="API_chosen === 'Aggiorna parametri robot'">
